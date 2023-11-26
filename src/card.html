@@ -3,23 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cards with Tailwind</title>
+    <title>Components with Tailwind</title>
     <link rel="stylesheet" href="../dist/output.css">
 </head>
 <body class="sub-container h-full m-auto dark:bg-gray-800 bg-gray-100 items-center">
 
     <main class="w-fit container mx-auto my-4 flex flex-col justify-between itens-center gap-9">
 
-        <h1 class="text-3xl font-bold self-center dark:text-white">Cards with <span class="text-brand-100">Tailwind CSS</span></h1>
+        <h1 class="text-xl xl:text-3xl font-bold self-center dark:text-white">Components with <span class="text-brand-100">Tailwind CSS</span></h1>
 
         <section class="sub-container container items-center">
 
             <h2 class="h2 dark:text-white">Card Component</h2>
             
-            <div class="w-fit mx-3 xl:w-2/4 container bg-white rounded-lg shadow-md overflow-hidden">
-                <h3 class="text-lg font-semibold bg-gray-50 p-2 border-b border-gray-100">Card Tittle</h3>
+            <div class="w-fit mx-3 xl:w-2/4 container bg-white rounded-lg shadow-md overflow-hidden group">
+
+                <h3 class="text-lg font-semibold bg-gray-50 p-2 border-b border-gray-100 transitions ease-in-out delay-100 duration-200 group-hover:text-brand-100">Card Tittle</h3>
+
                 <p class="p-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, fugiat voluptatibus nesciunt quasi aliquid quibusdam possimus doloribus illo sint cumque, aspernatur in ex quos. Natus ratione ullam recusandae itaque alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima laudantium sequi laborum reiciendis ea veritatis blanditiis ipsa, esse mollitia consequuntur exercitationem quas autem repudiandae sapiente asperiores maiores corrupti fugit nesciunt!
                 </p>
+
+            </div>
+
+        </section>
+
+        <section class="sub-container container items-center">
+
+            <h2 class="h2 dark:text-white">Button Component</h2>
+
+            <div class="w-fit mx-3 container space-x-2">
+
+                <button class="btn-secondary px-2 py-1 text-sm">Save</button>
+
+                <button class="btn-secondary px-4 py-1.5 text-md">Save</button>
+
+                <button class="btn-secondary px-6 py-2 text-lg">Save</button>
+
+            </div>
+
+        </section>
+
+        <section class="sub-container container items-center">
+
+            <h2 class="h2 dark:text-white">Badge / Tag Component</h2>
+
+            <div class="w-fit mx-3 container space-x-2">
+
+                <p class="tag bg-green-100 text-green-800">Active</p>
+
+                <p class="tag bg-red-100 text-red-800">Inative</p>
+
+                <p class="tag bg-yellow-100 text-yellow-800">In Progress</p>
+
             </div>
 
         </section>

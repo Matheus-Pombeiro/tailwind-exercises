@@ -14,4 +14,12 @@
     .btn-primary {
         @apply w-fit m-2 px-2 py-1 place-self-end rounded bg-blue-500 text-white font-semibold hover:ring-1;
     }
+
+    .btn-secondary {
+        @apply w-fit rounded bg-blue-500 hover:bg-blue-600 text-white font-semibold;
+    }
+
+    .tag {
+        @apply inline-flex text-sm px-1.5 py-0.5 rounded-md font-medium;
+    }
 }
