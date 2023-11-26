@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .sub-container {
+        @apply w-full flex flex-col justify-between gap-9;
+    }
+
+    .h2 {
+        @apply text-xl font-bold;
+    }
+
+    .btn-primary {
+        @apply w-fit m-2 px-2 py-1 place-self-end rounded bg-blue-500 text-white font-semibold hover:ring-1;
+    }
+}
