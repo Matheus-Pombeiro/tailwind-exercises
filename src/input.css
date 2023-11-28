@@ -8,7 +8,7 @@
     }
 
     .main {
-        @apply w-fit xl:w-4/5 container mx-2 xl:mx-auto my-4 flex flex-col justify-between items-center gap-9;
+        @apply w-fit xl:w-4/5 container xl:mx-auto my-4 flex flex-col justify-between items-center gap-9;
     }
 
     .h1 {
@@ -20,7 +20,7 @@
     }
 
     .btn-primary {
-        @apply w-fit m-2 px-2 py-1 place-self-end rounded bg-blue-500 text-white font-semibold hover:ring-1;
+        @apply w-fit m-2 px-2 py-1 place-self-end rounded bg-blue-500 text-white font-semibold hover:ring-1 cursor-pointer;
     }
 
     .btn-secondary {
@@ -33,5 +33,9 @@
 
     .input-text {
         @apply w-5/6 xl:w-2/5 bg-gray-50 border border-gray-300 focus:border-blue-400 rounded px-2 py-1 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-20 transition duration-300 ease-in-out;
+    }
+    
+    .input {
+        @apply bg-gray-50 border border-gray-300 focus:border-blue-400 rounded px-2 py-1 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-20 transition duration-300 ease-in-out;
     }
 }
