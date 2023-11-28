@@ -16,7 +16,7 @@
     }
 
     .h2 {
-        @apply text-xl font-bold dark:text-white;
+        @apply text-lg xl:text-xl font-bold dark:text-white;
     }
 
     .btn-primary {

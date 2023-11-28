@@ -6,9 +6,9 @@
     <title>Login | Tailwind</title>
     <link rel="stylesheet" href="../dist/output.css">
 </head>
-<body class="sub-container h-full m-auto dark:bg-gray-800">
+<body class="sub-container m-auto bg-gray-100 dark:bg-gray-800">
     
-    <main class="main m-auto">
+    <main class="main m-auto my-4">
 
         <h1 class="h1">Login Screen with <span class="text-brand-100">Tailwind CSS</span></h1>
 
@@ -16,13 +16,15 @@
 
             <h2 class="h2">Login</h2>
 
-            <div class="w-80 m-auto px-3 py-5 rounded drop-shadow-lg bg-indigo-100 flex flex-col justify-between gap-2">
+            <div class="w-80 m-auto px-3 py-5 rounded drop-shadow-lg bg-white flex flex-col justify-between gap-2">
 
                 <label for="email" class="text-lg font-semibold">E-mail</label>
                 <input type="email" name="email" id="email" class="input">
 
                 <label for="password" class="text-lg font-semibold">Password</label>
                 <input type="password" name="password" id="password" class="input">
+
+                <p class="text-sm cursor-pointer hover:underline">Do you forgot your password?</p>
 
                 <input type="submit" value="Login" class="btn-primary">
 
