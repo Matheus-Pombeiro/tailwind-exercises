@@ -800,6 +800,19 @@ video {
   --tw-ring-opacity: 0.2;
 }
 
+.link {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.link:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+  text-decoration-line: underline;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -833,6 +846,10 @@ video {
 
 .grid {
   display: grid;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .h-28 {
