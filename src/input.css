@@ -11,8 +11,12 @@
         @apply w-fit xl:w-4/5 container mx-2 xl:mx-auto my-4 flex flex-col justify-between items-center gap-9;
     }
 
+    .h1 {
+        @apply text-xl xl:text-3xl font-bold self-center dark:text-white;
+    }
+
     .h2 {
-        @apply text-xl font-bold;
+        @apply text-xl font-bold dark:text-white;
     }
 
     .btn-primary {
