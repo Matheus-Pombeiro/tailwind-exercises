@@ -7,6 +7,10 @@
         @apply w-full flex flex-col justify-between gap-9;
     }
 
+    .main {
+        @apply w-fit xl:w-4/5 container mx-2 xl:mx-auto my-4 flex flex-col justify-between items-center gap-9;
+    }
+
     .h2 {
         @apply text-xl font-bold;
     }

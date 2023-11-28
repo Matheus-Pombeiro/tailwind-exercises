@@ -576,6 +576,62 @@ video {
   gap: 2.25rem;
 }
 
+.main {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .main {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .main {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .main {
+    max-width: 1536px;
+  }
+}
+
+.main {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.25rem;
+}
+
+@media (min-width: 1280px) {
+  .main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}
+
 .h2 {
   font-size: 1.25rem;
   line-height: 1.75rem;
