@@ -14,7 +14,7 @@
         <nav class="h-24 flex justify-between items-center">
             <a href="#"  target="_blank" rel="noopener noreferrer" class="font-bold">LOGO</a>
 
-            <ul class="flex justify-between items-center gap-4">
+            <ul class="flex justify-between items-center gap-2 xl:gap-4">
                 <li>
                     <a href="#" target="_blank" rel="noopener noreferrer" class="link">How to Book?</a>
                 </li>
@@ -31,6 +31,51 @@
         </nav>
 
     </header>
+
+    <!--Main-->
+    <main class="container">
+
+        <!--Main img-->
+        <section class="container mx-auto" style="background: url('./assets/hotel-main-img.jpg'); height: 300px; background-size: cover; background-position: center;" >
+
+           <div class="container mx-auto px-4 h-full flex flex-col items-center justify-center gap-7 backdrop-brightness-50">
+
+                <div class="text-center">
+
+                    <h1 class="text-gray-100 text-2xl xl:text-3xl mb-2">Where are you want to go?</h1>
+                    <p class="text-green-100 text-sm xl:text-base">Choose the state and the city to find the best resorts.</p>
+
+                </div>
+
+                <div>
+
+                    <form class="space-x-1 xl:space-x-4 flex justify-between items-center">
+
+                        <select name="estado" id="" class="bg-gray-50 px-1 py-1 xl:px-3 xl:py-2 text-sm border border-gray-300 rounded text-gray-500">
+                            <option value="">Choose state</option>
+                        </select>
+
+                        <select name="cidade" id="" class="bg-gray-50 px-1 py-1 xl:px-3 xl:py-2 text-sm border border-gray-300 rounded text-gray-500">
+                            <option value="">Choose city</option>
+                        </select>
+                        
+                        <button class="bg-yellow-500 text-yellow-900 px-1 py-1 xl:px-3 xl:py-2 text-sm rounded xl:font-medium flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                            </svg>
+                              
+                            Search resorts
+                        </button>
+
+                    </form>
+
+                </div>
+
+           </div>
+
+        </section>
+
+    </main>
     
 </body>
 </html>

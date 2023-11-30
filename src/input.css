@@ -40,6 +40,6 @@
     }
 
     .link {
-        @apply text-sm text-gray-600 hover:text-gray-800 hover:underline;
+        @apply text-xs xl:text-sm text-gray-600 hover:text-gray-800 hover:underline;
     }
 }
